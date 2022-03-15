@@ -7,9 +7,10 @@ public class Alumno {
 	private String apellido;
 	private int edad;
 	private String id;
+	private String email;
 	
 	
-	public Alumno(String nombre, String apellido, int edad, String id) {
+	public Alumno(String nombre, String apellido, int edad, String id, String email) {
 		super();
 		this.nombre = nombre;
 		this.apellido = apellido;
